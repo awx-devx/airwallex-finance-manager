@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+knowledge/budgets.yaml
+knowledge/vendors.yaml
+knowledge/policies/spending.md
+!knowledge/*.example.yaml
+!knowledge/policies/*.example.md

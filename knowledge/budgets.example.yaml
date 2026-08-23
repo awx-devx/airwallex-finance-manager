@@ -1,0 +1,24 @@
+currency: USD
+period: "2026-08"
+categories:
+  - name: Payroll
+    budget: 80000
+    owner: People
+  - name: Cloud
+    budget: 12000
+    owner: Engineering
+  - name: Contractors
+    budget: 18000
+    owner: Engineering
+  - name: Travel
+    budget: 4000
+    owner: Operations
+  - name: Software
+    budget: 6500
+    owner: Engineering
+  - name: Marketing
+    budget: 8000
+    owner: Growth
+  - name: Other
+    budget: 3000
+    owner: Finance

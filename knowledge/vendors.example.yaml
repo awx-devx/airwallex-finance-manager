@@ -1,0 +1,12 @@
+# Vendors you already expect to pay. detect_spend_anomalies treats
+# a counterparty not in this list (and not in the baseline window)
+# as a new-vendor finding.
+known:
+  - AWS
+  - Google Cloud
+  - Stripe
+  - Notion
+  - Figma
+  - Deel
+  - WeWork
+  - Slack

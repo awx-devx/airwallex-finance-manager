@@ -1,0 +1,31 @@
+# Merge these keys into ~/.hermes/config.yaml.
+# Set FINANCE_MANAGER_ROOT in ~/.hermes/.env first (install.sh does this).
+# Hermes resolves ${FINANCE_MANAGER_ROOT} from the environment.
+#
+# This file is a fragment, not a full Hermes config. Do not replace an
+# existing config.yaml with it.
+
+skills:
+  external_dirs:
+    - ${FINANCE_MANAGER_ROOT}/skills
+
+mcp_servers:
+  airwallex:
+    url: "https://mcp.airwallex.com/mcp"
+    auth: oauth
+    enabled: true
+  finance-manager:
+    command: uv
+    args:
+      - run
+      - --directory
+      - ${FINANCE_MANAGER_ROOT}/mcp/finance-manager
+      - python
+      - -m
+      - finance_manager
+    env:
+      FINANCE_MANAGER_KNOWLEDGE_DIR: ${FINANCE_MANAGER_ROOT}/knowledge
+    enabled: true
+    tools:
+      resources: false
+      prompts: false
