@@ -1,5 +1,13 @@
 .DS_Store
+.cursor/
+.vscode/
+
 .env
+**/.env
+**/.env.local
+**/.env.*.local
+!.env.example
+
 .venv/
 __pycache__/
 *.py[cod]
@@ -9,6 +17,13 @@ __pycache__/
 .mypy_cache/
 dist/
 build/
+
+*.pem
+*.key
+*.p12
+**/credentials*
+secrets/
+
 knowledge/budgets.yaml
 knowledge/vendors.yaml
 knowledge/policies/spending.md

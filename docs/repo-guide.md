@@ -1,5 +1,7 @@
 # Repository Guide: Hermes Telegram Finance Manager
 
+> **Reference demo.** Not a hosted product, not financial advice, not an official Airwallex application. You clone it, wire it into your own Hermes profile, and run the agent yourself against your account.
+
 This document is the contract for **this repository**: what it contains, how a developer stands up their own agent, and how Hermes uses the pieces after install.
 
 Product thesis, demo storyline, and success criteria live in [airwallex-ai-finance-manager-direction.md](./airwallex-ai-finance-manager-direction.md). Read that for *why* this exists. Read this for *how this repo is structured and used*.

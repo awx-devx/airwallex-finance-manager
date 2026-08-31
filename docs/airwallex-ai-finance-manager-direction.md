@@ -1,5 +1,7 @@
 # Direction: Airwallex AI Finance Manager
 
+> Design intent for this **reference demo** — why it exists and what a good finance-manager experience looks like. Not a user guide and not a product specification for a hosted service. Setup lives in [README.md](../README.md) and [repo-guide.md](./repo-guide.md).
+
 ## 1. Project thesis
 
 Build a compelling example of what developers can create on top of Airwallex's financial infrastructure using AI agents.

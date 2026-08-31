@@ -1,8 +1,9 @@
 [project]
 name = "finance-manager"
 version = "0.1.0"
-description = "Compute-first MCP tools for a Hermes + Airwallex finance manager"
+description = "Compute-first MCP tools for a Hermes + Airwallex finance manager (reference demo)"
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.11"
 dependencies = [
     "fastmcp>=2.0",
