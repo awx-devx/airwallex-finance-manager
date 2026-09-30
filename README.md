@@ -37,7 +37,7 @@ A laptop is enough. You can skip Telegram at first and use `hermes chat` on the 
 ## Quickstart
 
 ```bash
-git clone https://github.com/HeimLabs/airwallex-finance-manager.git
+git clone https://github.com/awx-devx/airwallex-finance-manager.git
 cd airwallex-finance-manager
 ./scripts/install.sh
 ```
